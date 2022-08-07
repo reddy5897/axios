@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
     <h1> hello</h1>
-    
+    <p>hi</p>
   {data.map(item=><li key={item.id}> {item.name}</li>)}
     
     </div>
