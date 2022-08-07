@@ -9,6 +9,7 @@ function App() {
   },[])
   return (
     <div>
+    <h1> hello</h1>
     
   {data.map(item=><li key={item.id}> {item.name}</li>)}
     
